@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    background-color: rgba(184, 180, 180, 0.615);
+}
+
+.nav {
+    background-color: rgb(184, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    padding: 10px;
+}
+
+#footer {
+    background-color: rgb(162, 159, 159);
+}
