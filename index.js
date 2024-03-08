@@ -130,7 +130,6 @@ Challenge:
   called "MainContent" and render inside Page as well.
 */
 import React from "react"
-import Header from "../Header.js"
 
 function Footer() {
     return (
@@ -138,6 +137,21 @@ function Footer() {
             <small>© 2024 Arzola's development. All rights reserved.</small>
         </footer>
 
+    )
+}
+
+function Header() {
+    return (
+        <div>
+            <nav className="nav">
+                <img className="nav-img" src="./react-logo.png"></img>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
     )
 }
 
